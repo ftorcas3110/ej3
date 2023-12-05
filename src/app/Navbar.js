@@ -1,0 +1,19 @@
+import React from 'react'
+import Link from "next/link";
+
+function Navbar() {
+  return (
+    <nav className="navbar">
+    <div>
+    <Link href="/">Inicio</Link>
+    <Link href="/flores">Flores</Link>
+    </div>
+    <div>
+    <Link href="/acerca">Acerca de</Link>
+    <Link href="/registro">Registrarme</Link>
+    </div>
+    </nav>
+  )
+}
+
+export default Navbar
